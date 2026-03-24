@@ -38,7 +38,7 @@ wifi:
 
 external\_components:
 
-&#x20; - source: github://tanner87661/SmartLayout/loconet\_tcp
+&#x20; - source: github://tanner87661/esphome_loconet\_tcp
 
 &#x20;   components: \[loconet\_tcp]
 
