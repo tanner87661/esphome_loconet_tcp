@@ -17,8 +17,8 @@ class LoconetTCP : public Component {
   void set_host(const std::string &host) { host_ = host; }
   void set_port(uint16_t port) { port_ = port; }
 
-  void set_receive_trigger(esphome::Trigger<std::string> *trigger) { receive_trigger_ = trigger; }
-  void set_sent_ok_trigger(esphome::Trigger<std::string> *trigger) { sent_ok_trigger_ = trigger; }
+  void set_receive_trigger(Trigger<std::string> *trigger) { receive_trigger_ = trigger; }
+  void set_sent_ok_trigger(Trigger<std::string> *trigger) { sent_ok_trigger_ = trigger; }
 
   // Action you can call from YAML: id(my_loconet).send("COMMAND")
   void send(const std::string &data);
