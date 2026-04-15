@@ -5,7 +5,7 @@
 #include <WiFiClient.h>
 #include <string>
 
-namespace esphome {
+//namespace esphome {
 namespace loconet_tcp {
 
 class LoconetTCP : public Component {
@@ -37,4 +37,4 @@ class LoconetTCP : public Component {
 };
 
 }  // namespace loconet_tcp
-}  // namespace esphome
+//}  // namespace esphome

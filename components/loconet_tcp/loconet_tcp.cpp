@@ -1,7 +1,7 @@
 #include "loconet_tcp.h"
 #include "esphome/core/log.h"
 
-namespace esphome {
+//namespace esphome {
 namespace loconet_tcp {
 
 static const char *const TAG = "loconet_tcp";
@@ -68,4 +68,4 @@ void LoconetTCP::dump_config() {
 }
 
 }  // namespace loconet_tcp
-}  // namespace esphome
+//}  // namespace esphome
